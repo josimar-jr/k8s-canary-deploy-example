@@ -5,5 +5,5 @@
   register: copying_register
 
 - name: Deploy Giropops App deployment
-  shell: kubectl create -f /opt/giropops/app-v2-canary.yml
+  shell: kubectl apply -f /opt/giropops/app-v2-canary.yml
   register: deployment_register
