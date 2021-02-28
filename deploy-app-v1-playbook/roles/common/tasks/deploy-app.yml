@@ -12,9 +12,9 @@
   register: copying_register
 
 - name: Deploy Giropops App deployment
-  shell: kubectl create -f /opt/giropops/app-v1.yml
+  shell: kubectl apply -f /opt/giropops/app-v1.yml
   register: deployment_register
 
 - name: Deploy Giropops App service
-  shell: kubectl create -f /opt/giropops/service-app.yml
+  shell: kubectl apply -f /opt/giropops/service-app.yml
   register: deployment_register
