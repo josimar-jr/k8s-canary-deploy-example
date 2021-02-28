@@ -1,6 +1,6 @@
 instance_type: t2.medium
-security_group: giropopsKubernetes
-image: ami-0d2505740b82f7948
+security_group: ansible-k8s
+image: ami-0e765cee959bcbfce
 keypair: chave
-region: us-east-1
+region: sa-east-1
 count: 3
